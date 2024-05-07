@@ -27,7 +27,12 @@ function encriptar() {
    }       
 
 function desencriptar(){
+
     let texto = document.getElementById("texto").value;
+    let tituloMensaje = document.getElementById("titulo-mensaje");
+    let parrafo = document.getElementById("parrafo");
+    let muñeco = document.getElementById("muñeco");
+
     let textoCifrado = texto
         .replace(/enter/gi, "e")
         .replace(/imes/gi, "i")
